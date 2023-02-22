@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IoTec</string>
+    <string name="terms_conditions">Al ingresar aceptas nuestros <u>terminos</u> y <u>condiciones</u> del servicio.</string>
+
+    <string name="WEB_CLIENT_ID">971622457121-avmf4esqbsbii9sah3i6jq4bai7fedjo.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COMPONENTS COLORS -->
+    <color name="tittle_text">#FFFFFF</color>
+    <color name="body_text">#E6E6E6</color>
+
+    <!-- BUTTONS COLORS -->
+    <color name="btn_google">@color/gray</color>
+    <color name="btn_facebook">#1278f3</color>
+
+    <!-- RIPPLES -->
+    <color name="ripple_btn_google">#DDDDDD</color>
+
+    <!-- CARDS -->
+    <color name="card_login">#252525</color>
+    <color name="card_buton">@color/gray</color>
+    <color name="gray">#505050</color>
+
+    <!-- OTHERS -->
+    <color name="text_and_icons">#252525</color>
+</resources>

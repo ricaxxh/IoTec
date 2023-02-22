@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "971622457121",
+    "project_id": "iotec-mx",
+    "storage_bucket": "iotec-mx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971622457121:android:6d4733c36da5ac84832860",
+        "android_client_info": {
+          "package_name": "com.softgames.iotec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971622457121-cr11dfddhnmcan4u6fggefnuuo59dgpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softgames.iotec",
+            "certificate_hash": "15faae580365df0aa892278a6a6e03f806021e03"
+          }
+        },
+        {
+          "client_id": "971622457121-avmf4esqbsbii9sah3i6jq4bai7fedjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxl5mm65HR7bPmylbwRpw87C4HFKW14oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971622457121-avmf4esqbsbii9sah3i6jq4bai7fedjo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

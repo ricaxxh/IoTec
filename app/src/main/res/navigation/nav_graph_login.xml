@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_login"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.softgames.iotec.presentation.authentication.login.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/ACTION_LOGIN_TO_PHONE_AUTH"
+            app:destination="@id/phoneAuthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/phoneAuthFragment"
+        android:name="com.softgames.iotec.presentation.authentication.login.phone_auth.view.PhoneAuthFragment"
+        android:label="PhoneAuthFragment" >
+        <action
+            android:id="@+id/ACTION_PHONE_AUTH_TO_COUNTRY_SELECTOR"
+            app:destination="@id/countrySelectorDialog" />
+        <action
+            android:id="@+id/ACTION_PHONE_AUTH_TO_PHONE_CODE"
+            app:destination="@id/phoneCodeFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/countrySelectorDialog"
+        android:name="com.softgames.iotec.presentation.authentication.login.phone_auth.view.country_selector.CountrySelectorDialog"
+        android:label="CountrySelectorDialog" />
+    <fragment
+        android:id="@+id/phoneCodeFragment"
+        android:name="com.softgames.iotec.presentation.authentication.login.phone_auth.view.PhoneCodeFragment"
+        android:label="PhoneCodeFragment" />
+</navigation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_register"
+    app:startDestination="@id/registerUserFragment">
+
+    <fragment
+        android:id="@+id/registerUserFragment"
+        android:name="com.softgames.iotec.presentation.authentication.register.view.RegisterUserFragment"
+        android:label="UserNameRFragment" >
+        <action
+            android:id="@+id/ACTION_REGISTER_USER_TO_REGISTER_ADMIN"
+            app:destination="@id/registerTeacherFragmen" />
+        <action
+            android:id="@+id/ACTION_REGISTER_USER_TO_REGISTER_TEACHER"
+            app:destination="@id/registerTeacherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerTeacherFragmen"
+        android:name="com.softgames.iotec.presentation.authentication.register.view.RegisterAdminFragmen"
+        android:label="UserOrganizationRFragmen" />
+    <fragment
+        android:id="@+id/registerTeacherFragment"
+        android:name="com.softgames.iotec.presentation.authentication.register.view.RegisterTeacherFragment"
+        android:label="RegisterTeacherFragment" />
+</navigation>

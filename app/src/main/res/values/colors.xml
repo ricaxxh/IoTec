@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- COLORS -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="azul_500">#2793FF</color>
+    <color name="azul_700">#2872dc</color>
+    
+    <color name="rojo_400">#FF7071</color>
+    <color name="rojo_600">#FF3235</color>
+
+    <color name="cafe_600">#675548</color>
+    <color name="cafe_700">#5c4c42</color>
+    <color name="cafe_400">#86766b</color>
+
+    <color name="primary">@color/azul_500</color>
+    <color name="secondary">@color/cafe_600</color>
+    <color name="tertiary">@color/rojo_400</color>
+    
+    <!-- COMPONENTS COLORS -->
+    <color name="tittle_text">#000000</color>
+    <color name="body_text">#252525</color>
+
+    <!-- BUTTONS COLORS -->
+    <color name="btn_google">@color/white</color>
+    <color name="btn_facebook">#1278f3</color>
+
+    <!-- RIPPLES -->
+    <color name="ripple_btn_google">#DDDDDD</color>
+
+    <!-- CARDS -->
+    <color name="card_login">#fcf2f2</color>
+    <color name="card_buton">@color/white</color>
+    <color name="gray">#505050</color>
+
+    <!-- OTHERS -->
+    <color name="text_and_icons">#252525</color>
+
+</resources>

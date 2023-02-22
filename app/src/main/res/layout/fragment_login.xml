@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_title"
+        style="@style/TITLE_TEXT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Iniciar mediante"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_phone"
+        style="@style/Widget.Material3.CardView.Outlined"
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="24dp"
+        app:cardBackgroundColor="@color/card_buton"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/card_mail"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title"
+        app:strokeColor="@color/tertiary"
+        app:strokeWidth="3.5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/img_phone"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_phone"
+                app:tint="@color/tertiary" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Telefono"
+                android:textAlignment="center"
+                android:textColor="@color/tertiary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_phone" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_mail"
+        style="@style/Widget.Material3.CardView.Outlined"
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="24dp"
+        app:cardBackgroundColor="@color/card_buton"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/card_phone"
+        app:layout_constraintTop_toBottomOf="@+id/txt_title"
+        app:strokeColor="@color/tertiary"
+        app:strokeWidth="3.5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_mail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/img_mail"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="18dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_mail"
+                app:tint="@color/tertiary" />
+
+            <TextView
+                android:id="@+id/txt_mail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Correo"
+                android:textAlignment="center"
+                android:textColor="@color/tertiary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_mail" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/btn_google"
+        android:text="Google"
+        android:textColor="@color/body_text"
+        app:icon="@drawable/ic_google"
+        app:iconSize="24dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/txt_terms_and_conditions"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/ripple_btn_google" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#1977f3"
+        android:text="Facebook"
+        app:icon="@drawable/ic_facebook"
+        app:iconSize="25dp"
+        app:iconTint="@null"
+        app:layout_constraintBottom_toTopOf="@+id/txt_terms_and_conditions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_google" />
+
+    <TextView
+        android:id="@+id/txt_terms_and_conditions"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/terms_conditions"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O ingresa con"
+        app:layout_constraintBottom_toTopOf="@+id/btn_google"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_phone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

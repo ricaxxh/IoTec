@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="IOTEC_THEME" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- PRIMARY COLOR. -->
+        <item name="colorPrimary">@color/rojo_400</item>
+        <item name="colorPrimaryVariant">@color/rojo_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- SECONDARY COLOR. -->
+        <item name="colorSecondary">@color/cafe_400</item>
+        <item name="colorSecondaryVariant">@color/cafe_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorTertiary">@color/azul_500</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <!-- STATUS BAR COLOR. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- CUSTOM COMPONENTS STYLE -->
+        <item name="android:textViewStyle">@style/BODY_TEXT</item>
+        <item name="materialButtonStyle">@style/BUTTON_STYLE</item>
+        <item name="textInputStyle">@style/TEXTBOX_STYLE</item>
+        <item name="android:autofilledHighlight" tools:targetApi="o">@drawable/autocomplete</item>
+    </style>
+
+    <style name="BUTTON_STYLE" parent="Widget.Material3.Button">
+        <item name="android:textSize">17.5sp</item>
+        <item name="android:fontFamily">@font/samsung_bold</item>
+        <item name="android:minHeight">60dp</item>
+    </style>
+
+    <style name="TEXTBOX_STYLE" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/OUTLINED_TEXTBOX_STYLE</item>
+        <item name="counterTextAppearance">@style/COUNTER_TEXT_STYLE</item>
+    </style>
+
+    <style name="TEXTBOX_STYLE_VARIANT" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/samsung_medium</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+    </style>
+
+    <style name="OUTLINED_TEXTBOX_STYLE" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:fontFamily">@font/samsung_medium</item>
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+    </style>
+
+    <style name="OUTLINED_TEXTBOX_SPPINER_STYLE" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+    </style>
+
+    <style name="COUNTER_TEXT_STYLE" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="android:fontFamily">@font/samsung_medium</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable-v24/img_camera.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/autocomplete.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/fig_buton_login.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/fig_card_login.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/fig_circle.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/flag_argentina.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/flag_brasil.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/ic_alarma.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/ic_google.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/ic_img_welcome.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/drawable/ic_phone.xml" value="0.1965" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/activity_main.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/activity_menu.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/activity_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/dialog_country_selector.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_login.xml" value="0.32533197139938713" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_main.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_organization_register.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_organization_search.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_phone_auth.xml" value="0.33" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_phone_code.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_register_admin.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_register_organization.xml" value="0.33" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_register_teacher.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_register_user.xml" value="0.2678721614802355" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_search_organization.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_user_name.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/fragment_user_name_r.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/layout/item_country.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/menu/nav_graph_login.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/aldai/AndroidStudioProjects/IoTec/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.168" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
